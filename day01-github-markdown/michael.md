@@ -1,6 +1,6 @@
 # 1
 
-![Alt Text](https://tenor.com/bCBAf.gif)
+![Alt Text](https://pbs.twimg.com/media/E4xkH5lVcAI3xdb?format=jpg&name=large)
 
 
 # 2
