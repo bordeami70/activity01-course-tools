@@ -21,6 +21,23 @@ We will see how naming code chunks makes our life easier later in this document 
 
 ```{r simple-calculations}
 
+#adding 2 to 5
+2 + 5
+
+#creating a vector 1-9
+int_vect <- 1:9
+
+#setting vector char_vect to a vector A-Q
+char_vect <- LETTERS[1:17]
+
+
+#checking to see if this will return the vector of everything after D
+intermediate_vect <- char_vect[char_vect >"D"]
+
+#returns length of new vector after D
+lengt_of_char <- length(char_vect[char_vect > "D"])
+
+
 ```
 
 In the code chunk named "simple-calculations", add the R code that does the following:
@@ -74,7 +91,8 @@ If you would like to try the *ISLR* labs using these two packages instead of bas
 - Run the `setup` code chunk and/or **knit** <img src="../README-img/knit-icon.png" alt="knit" width = "20"/> icon your Rmd document to verify that no errors occur.
 
 ```{r setup}
-
+library(tidyverse)
+library(tidymodels)
 ```
 
 ![check-in](README-img/noun-magnifying-glass.png) **Check in**
